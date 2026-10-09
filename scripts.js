@@ -9,6 +9,7 @@ function setTime() {
     month: 'long',
     day: 'numeric',
   };
+  
   const date = now.toLocaleDateString('fi-FI', dateOptions);
 
   const datetime = `<p>Tänään on ${date}</p><p>Kello on ${time}</p>`;
